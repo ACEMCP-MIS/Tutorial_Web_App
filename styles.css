@@ -1,0 +1,64 @@
+
+body,html{
+
+    
+}
+h1{
+    text-align: center;
+   
+    padding-top:5vh ;
+    padding-bottom:5vh ;
+}
+.card:hover{
+    transition: 2s;
+    box-shadow: 0 0 50px #0c0e24;
+}
+
+body {
+  background-color: #dfdfdf;
+}
+
+/* ===== FOR DEMO ===== */
+.demo {
+  height: 80vh; 
+  width: 1500px;
+  margin: 0 auto;  
+}
+
+.demo-card{
+  background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.62);  
+  height:450px;
+  width:375px;  
+ 
+}
+/* ===== FOR DEMO ===== */
+
+/* ===== MAIN CODE ===== */
+.content {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.card-hghlght {
+  pointer-events: auto;
+  transform: scale(1);
+  transition: all 0.4s;
+  margin: 5px;
+}
+
+.card-hghlght:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.content:hover .card-hghlght:not(:hover) {
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+/* ===== MAIN CODE ===== */
