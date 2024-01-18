@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    padding-top:4vh ;
+    padding-bottom:1vh ;
+    font-family: "Libre Franklin";
+    color: rgb(18, 60, 106);
+    margin: auto;
+}
+
+body{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(100, 185, 194, 0.6),
+    rgba(255, 255, 255, 0.309)
+  ), url("bg_pic.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+}

@@ -22,7 +22,7 @@
         <h1>HEALTH INFORMATION SYSTEM</h1>
         <p>Click below for Health Information System Guidelines
         </p>
-        <button class="button-35" role="button">Go to Site</button>
+        <button class="button-35" role="button" onclick="document.location='HIS/HOME_HIS.php'">Go to Site</button>
 
       </div>
     </div>
