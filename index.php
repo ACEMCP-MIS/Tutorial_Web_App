@@ -7,26 +7,101 @@
   <title>ACEMCP - GUIDES</title>
   <link rel="shortcut icon" href="icons/favicon.ico">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-
-
-
 <body>
-  
-<h1>ACE MEDICAL CENTER PALAWAN SYSTEM GUIDELINES</H1>
+
+  <h1>ACE MEDICAL CENTER PALAWAN SYSTEMS</H1>
+  <p>System Guidlines for ACE EMPLOYEES
+        </p>
   <section class="content demo">
-    
-    <div class="card-hghlght demo-card">
+
+
+    <div class="card-hghlght demo-card" id="HIS">
       <div class="card-body m-5">
-        <p>HIS</p>
+        <h1>HEALTH INFORMATION SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
       </div>
     </div>
-    <div class="card-hghlght demo-card"></div>
-    <div class="card-hghlght demo-card"></div>
-    <div class="card-hghlght demo-card"></div>     
+
+
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+        <h1>MATERIALS MANAGEMENT SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+        <h1>FINANCIAL MANAGEMENT SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+
+        <h1>PHILHEALTH INFORMATION SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section class="content demo">
+
+
+    <div class="card-hghlght demo-card" id="HIS">
+      <div class="card-body m-5">
+        <h1>PRICE UPDATE REQUISITION</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+
+
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+        <h1>ISSUANCE SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+        <h1>FINANCIAL MANAGEMENT SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
+    <div class="card-hghlght demo-card">
+      <div class="card-body m-5">
+
+        <h1>PHILHEALTH INFORMATION SYSTEM</h1>
+        <p>Click below for Health Information System Guidelines
+        </p>
+        <button class="button-35" role="button">Go to Site</button>
+
+      </div>
+    </div>
   </section>
 </body>
-<FOOTer><p> quick quidelines</p></FOOTer>
+
+
 </html>
