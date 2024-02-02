@@ -48,27 +48,7 @@
   
   <h1>Services And Process Systems Info</h1>
 
-  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
   <section class="content demo">
     <div class="row">
       <div class="col 1">
@@ -117,7 +97,7 @@
         <div class="card-hghlght demo-card" id="HIS">
           <div class="card-body m-5">
             <h2>PRICE UPDATE REQUISITION</h2>
-            <h6>Health Information System Guidelines
+            <h6>Price Update <br>Requisition Guidelines
             </h6>
             <a href="http://10.0.1.3/price_update_requisition/login_form.html"><button class="button-35" role="button">Go to Site</button></a>
           </div>
@@ -125,6 +105,22 @@
       </div>
     </div>
   </section>
+  <div class="container">
+    <div class="row">
+      <h2 class="Bottom Header">Other Apps And Info:</h2>
+    <div class="col">
+    <h2>PALMIRA SYSTEMS</h2>
+    <ul>
+        <li>TIMEKEEPER</li>
+        <li>E-ACCESS</li>
+        <li>DTR</li>
+      </ul>
+    </div>
+    <div class="col">
+     
+  </div>
+  </div>
+    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
   </script>
