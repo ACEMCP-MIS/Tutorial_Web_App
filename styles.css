@@ -6,7 +6,7 @@ body {
   height: 200vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
-  background-image: linear-gradient(to top, #606467 0%, hsla(196, 100%, 89%, 0.712) 100%) ;
+  background-image: linear-gradient(to top, #606467 0%, #d6dee1 100%) ;
 
 }
 
@@ -18,16 +18,17 @@ h1 {
   margin: auto;
   margin-top: 10vh;
   font-size: 70px;
-  font-weight: 300;
+  font-weight: 400;
   /* ACEMCP HEADER*/
   background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  cursor:context-menu;
 }
 h2 {
   text-align: left;
-  font-weight: lighter;
+  font-weight: 300;
   font-family: "Libre Franklin";
 }
 
@@ -39,43 +40,22 @@ h2 {
 margin-right: auto;
   font-family: "Libre Franklin";
   margin: auto;
-  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-weight: 600;
-  cursor:pointer;
-
-
-  
+  color: #212427;
   font-size: 3vh;
+  
 }
+.navbar-brand:hover{
+  
+    color: #212427;
+    pointer-events: none;
+    
+  }
 
-.nav-item{
-  justify-content: space-between;
-  margin-left: 100px;
-  font-size: 22px;
-  font-weight: 700;
- color: #212427;
-  cursor:pointer;
-  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-weight: 600;
-  cursor:pointer;
-}
 
 h2.Bottom.Header{
   text-align: center;
 }
-
-
-
 /* Gradient transparent - color - transparent */
-
-
-
 /* ===== FOR DEMO ===== */
 .demo {
   height: 40vh;
@@ -83,7 +63,6 @@ h2.Bottom.Header{
   margin: 0 auto;
 
 }
-
 .demo-card {
 
   border-radius: 30px;
@@ -92,9 +71,7 @@ h2.Bottom.Header{
   width: 250px;
 
 }
-
 /* ===== FOR DEMO ===== */
-
 /* ===== MAIN CODE ===== */
 .content {
 
@@ -102,14 +79,12 @@ h2.Bottom.Header{
   pointer-events: none;
   transition: all 0.6s;
 }
-
 .card-hghlght {
   pointer-events: auto;
   transform: scale(1);
   transition: all 0.6s;
   margin-right: auto;
 }
-
 .card-hghlght:hover {
   opacity: 1;
 

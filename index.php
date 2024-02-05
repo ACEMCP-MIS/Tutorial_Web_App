@@ -18,29 +18,9 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img class="navbrandico" src="icons/2.png" alt="" >ACE MEDICAL CENTER PALAWAN</a>
+      <a class="navbar-brand" href="#"><img class="navbrandico" src="icons/2.png" alt="" ><strong>A</strong>LIED <strong>C</strong>ARE <strong>E</strong>XPERTS <strong>M</strong>EDICAL <strong>C</strong>ENTER <strong>P</strong>ALAWAN</a>
       <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://10.0.10.10/directory">Directory</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://10.0.10.10/hmo/">HMO</a>
-          </li>
-
-        </ul>
       
-      </div>
  
     </div>
 
