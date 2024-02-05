@@ -14,7 +14,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+  <nav class="navbar  navbar-expand-lg navbar-dark shadow-5-strong">
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Navbar brand -->
@@ -29,7 +29,7 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link " aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://10.0.10.10/directory">Directory</a>
@@ -55,7 +55,7 @@
         <div class="card-hghlght demo-card" id="HIS">
           <div class="card-body m-5">
             <div class="text">
-              <h2>HEALTH INFORMATION SYSTEM</h2>
+              <h2><strong>H</strong>EALTH <strong>I</strong>NFORMATION <strong>S</strong>YSTEM</h2>
               <h6>Health <br>Information System Guidelines
               </h6>
               <button class="button-35" role="button" onclick="document.location='HIS/HOME_HIS.php'">Go to Site</button>
@@ -66,7 +66,7 @@
       <div class="col 2">
         <div class="card-hghlght demo-card">
           <div class="card-body m-5">
-            <h2>MATERIALS MANAGEMENT SYSTEM</h2>
+            <h2><strong>M</strong>ATERIALS <strong>M</strong>ANAGEMENT <strong>S</strong>YSTEM</h2>
             <h6>Materials Management System Guidelines
             </h6>
             <button class="button-35" role="button">Go to Site</button>
@@ -76,7 +76,7 @@
       <div class="col 3">
         <div class="card-hghlght demo-card">
           <div class="card-body m-5">
-            <h2>FINANCIAL MANAGEMENT SYSTEM</h2>
+            <h2><strong>F</strong>INANCIAL<strong> M</strong>ANAGEMENT<strong> S</strong>YSTEM</h2>
             <h6>Financial Management System Guidelines
             </h6>
             <button class="button-35" role="button">Go to Site</button>
@@ -86,23 +86,14 @@
       <div class="col 4">
         <div class="card-hghlght demo-card">
           <div class="card-body m-5">
-            <h2>PHILHEALTH INFORMATION SYSTEM</h2>
+            <h2><strong>P</strong>HILHEALTH <strong>I</strong>NFORMATION <strong>S</strong>YSTEM</h2>
             <h6>PhilHealth Information <br>System Guidelines
             </h6>
             <button class="button-35" role="button">Go to Site</button>
           </div>
         </div>
       </div>
-      <div class="col 5">
-        <div class="card-hghlght demo-card" id="HIS">
-          <div class="card-body m-5">
-            <h2>PRICE UPDATE REQUISITION</h2>
-            <h6>Price Update <br>Requisition Guidelines
-            </h6>
-            <a href="http://10.0.1.3/price_update_requisition/login_form.html"><button class="button-35" role="button">Go to Site</button></a>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
   <div class="container">

@@ -6,7 +6,7 @@ body {
   height: 200vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) ;
+  background-image: linear-gradient(to top, #606467 0%, hsla(196, 100%, 89%, 0.712) 100%) ;
 
 }
 
@@ -20,14 +20,14 @@ h1 {
   font-size: 70px;
   font-weight: 300;
   /* ACEMCP HEADER*/
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
-h2, h6 {
+h2 {
   text-align: left;
-font-weight: 500;
+  font-weight: lighter;
   font-family: "Libre Franklin";
 }
 
@@ -39,12 +39,15 @@ font-weight: 500;
 margin-right: auto;
   font-family: "Libre Franklin";
   margin: auto;
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: 600;
   cursor:pointer;
+
+
+  
   font-size: 3vh;
 }
 
@@ -53,7 +56,13 @@ margin-right: auto;
   margin-left: 100px;
   font-size: 22px;
   font-weight: 700;
- color: rgb(17, 15, 15);
+ color: #212427;
+  cursor:pointer;
+  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 600;
   cursor:pointer;
 }
 
@@ -152,74 +161,11 @@ h2.Bottom.Header{
  color: #fffffff0;
  
   box-shadow: #010029 0 0 0 4px, transparent 0 0 0 0;
-  background-color: #000000;
+  background-color: #212427;
 
 }
 .navbrandico{
   width: 40px;
   height: 30px;
   margin-right: 10px;
-}
-
-
-.pic-ctn {
-  
-  height: 200px;
-}
-
-@keyframes display {
-  0% {
-    transform: translateX(200px);
-    opacity: 0;
-  }
-  10% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  20% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  30% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-}
-
-.pic-ctn {
-  position: relative;
-  
-  height: 300px;
-  margin-top: 5vh;
-}
-
-.pic-ctn > img {
-  position: absolute;
-
-  top: 0;
-  left: calc(0% - 100px);
-  opacity: 0;
-  animation: display 10s infinite;
-  border-radius: 20px;
-}
-
-img:nth-child(2) {
-  animation-delay: 2s;
-}
-img:nth-child(3) {
-  animation-delay: 4s;
-}
-img:nth-child(4) {
-  animation-delay: 6s;
-}
-img:nth-child(5) {
-  animation-delay: 8s;
-}
-li:hover{
-  
-  box-shadow: #010029 0 0 0 4px, transparent 0 0 0 0;
 }
