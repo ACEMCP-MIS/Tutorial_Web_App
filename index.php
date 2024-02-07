@@ -76,31 +76,60 @@
       
     </div>
   </section>
-  <div class="container">
+  <div class="container other">
     <div class="row">
       <h2 class="Bottom Header">Other Apps And Info:</h2>
-      <div class="col-md-8 justify-content-center">
+      <div class="col-sm justify-content-center">
     <h2>PALMIRA SYSTEMS</h2>
     <ul>
-        <li>TIMEKEEPER</li>
-        <li>E-ACCESS</li>
-        <li>DTR</li>
+        <li><a href="#">TIMEKEEPER</a></li>
+        <li><a href="#">E-ACCESS</a></li>
+        <li><a href="#">DTR</a></li>
       </ul>
     </div>
-    <div class="col-md-4  justify-content-center">
+    <div class="col-sm  justify-content-center">
     <h2>MIS Systems</h2>
     <ul>
-        <li>Purchase Requisition Draft</li>
-        <li>Price Update Requestion</li>
-        <li>Stock Issuance</li>
+        <li><a href="#">Purchase Requisition Draft</a></li>
+        <li><a href="#">Price Update Requestion</a></li>
+        <li><a href="#">Stock Issuance</a></li>
+        <li><a href="#">Computer Literacy Exam</a></li>
+        <li><a href="#">Investor's Discount List </a></li>
+        
+     
+      </ul>
+  </div>
+  <div class="col-sm  justify-content-center">
+    <h2>Others</h2>
+    <ul>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">HMO References</a></li>
+        <li><a href="#">List of Vattable Doctors</a></li>
      
       </ul>
   </div>
   </div>
-    
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
   </script>
+  <footer>
+  <div class="footer">
+
+<h6 class="footer_header">Management Informaton System Department</h6>
+<div class="row">
+<ul>
+<li><a href="http://10.0.10.10/directory/">Contact us</a></li>
+<li><a href="TBA.php">Our Services</a></li>
+<li><a href="TBA.php">Privacy Policy</a></li>
+<li><a href="TBA.php">Terms & Conditions</a></li>
+<li><a href="TBA.php">Career</a></li>
+</ul>
+</div>
+
+
+</div>
+  </footer>
 </body>
 
 
