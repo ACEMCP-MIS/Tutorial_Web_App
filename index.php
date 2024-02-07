@@ -79,7 +79,7 @@
   <div class="container">
     <div class="row">
       <h2 class="Bottom Header">Other Apps And Info:</h2>
-    <div class="col">
+      <div class="col-md-8 justify-content-center">
     <h2>PALMIRA SYSTEMS</h2>
     <ul>
         <li>TIMEKEEPER</li>
@@ -87,8 +87,14 @@
         <li>DTR</li>
       </ul>
     </div>
-    <div class="col">
+    <div class="col-md-4  justify-content-center">
+    <h2>MIS Systems</h2>
+    <ul>
+        <li>Purchase Requisition Draft</li>
+        <li>Price Update Requestion</li>
+        <li>Stock Issuance</li>
      
+      </ul>
   </div>
   </div>
     

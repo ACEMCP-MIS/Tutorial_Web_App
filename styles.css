@@ -3,10 +3,10 @@
 body {
   margin: 0;
   padding: 0;
-  height: 200vh;
+  height: 120vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
-  background-image: linear-gradient(to top, #606467 0%, #d6dee1 100%) ;
+  background-image: linear-gradient(to top, #fdfdfd 0%, #ecf2f4 100%) ;
 
 }
 
@@ -143,4 +143,9 @@ h2.Bottom.Header{
   width: 40px;
   height: 30px;
   margin-right: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0  ;
 }
