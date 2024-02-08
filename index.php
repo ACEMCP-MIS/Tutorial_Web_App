@@ -13,20 +13,25 @@
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar  navbar-expand-lg navbar-dark shadow-5-strong">
-    <!-- Container wrapper -->
-    <div class="container-fluid">
-      <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img class="navbrandico" src="icons/2.png" alt="" ><strong>A</strong>LIED <strong>C</strong>ARE <strong>E</strong>XPERTS <strong>M</strong>EDICAL <strong>C</strong>ENTER <strong>P</strong>ALAWAN</a>
-      <!-- Toggle button -->
-      
- 
-    </div>
 
-  </nav>
+<!-- As a heading -->
+<nav class="navbar">
+  <div class="container">
+  <span class="navbar-brand mb-0 h1">Ace Medical Center Palawan</span>
+    <div class="row">
+    <ul class="navlist">
+        <li><a class="nav-item" href="http://localhost/TP_Web/Tutorial_Web_App/">Home</a></li>
+        <li><a class="nav-item" href="http://10.0.10.10/directory/">Contacts</a></li>
+        
+      </ul>
+    </div>
+      
+    
   
-  <h1>Services And Process Systems Info</h1>
+  </div>
+</nav>
+  
+  <h1>ACEMCP GUIDES</h1>
 
 
   <section class="content demo">
@@ -78,36 +83,107 @@
   </section>
   <div class="container other">
     <div class="row">
-      <h2 class="Bottom Header">Other Apps And Info:</h2>
-      <div class="col-sm justify-content-center">
-    <h2>PALMIRA SYSTEMS</h2>
-    <ul>
-        <li><a href="#">TIMEKEEPER</a></li>
-        <li><a href="#">E-ACCESS</a></li>
-        <li><a href="#">DTR</a></li>
-      </ul>
-    </div>
+      <h2 class="Bottom Header">MIS Department Apps:</h2>
+    
+
+    
     <div class="col-sm  justify-content-center">
-    <h2>MIS Systems</h2>
-    <ul>
-        <li><a href="#">Purchase Requisition Draft</a></li>
-        <li><a href="#">Price Update Requestion</a></li>
-        <li><a href="#">Stock Issuance</a></li>
-        <li><a href="#">Computer Literacy Exam</a></li>
-        <li><a href="#">Investor's Discount List </a></li>
-        
-     
-      </ul>
+
+    
+    <h2>
+    <a
+        data-bs-toggle="collapse"
+        href="#collapse1"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapse1"
+        style="text-decoration: underline;"
+      >
+      MIS Systems
+</a >
+
+    </h2>
+
+    <div 
+    class="collapse" 
+    id="collapse1" >
+
+    <div class="list">
+  
+  <ul>
+    <li><span><a href="http://10.0.10.10/exam/">Computer Literacy Exam</a></span></li>
+    <li><span><a href="http://10.0.1.3/stock_issuance/login.php">Stock Issuance</a></span></li>
+    <li><span><a href="http://10.0.1.3/price_update_requisition/login_form.html">Price Update Requestion</a></span></li>
+    <li><span><a href="http://10.0.1.3/purchase/">Purchase Requisition Draft</a></span></li>
+ 
+  </ul>
+</div>
+</div>
   </div>
-  <div class="col-sm  justify-content-center">
-    <h2>Others</h2>
+  <div class="col-sm justify-content-center">
+    <h2>
+    <a
+        data-bs-toggle="collapse"
+        href="#collapse1"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapse1"
+        style="text-decoration: underline;"
+      >
+      
+
+  
+    </a >
+  </h2>
+  <div 
+    class="collapse" 
+    id="collapse1" >
+
+    <div class="list">
+
     <ul>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">HMO References</a></li>
-        <li><a href="#">List of Vattable Doctors</a></li>
-     
+        <li><span><a href="http://10.0.10.10/directory/">Directory</a></span></li>
+        <li><span><a href="http://10.0.10.10/hmo/">HMO References</a></span></li>
+        <li><span><a href="http://10.0.10.10/vattable_doctors/">List of Vattable Doctors</a></span></li>
+        <li><span><a href="#">Investor's Discount List </a></span></li>
+       <li><span><a href="http://10.0.1.3/ACEMEMO/">Ace Memorandum Handler </a></span></li>
       </ul>
+      </div>
   </div>
+    </div>
+  <div class="col-sm justify-content-center">
+    <h2>
+    <a
+        data-bs-toggle="collapse"
+        href="#collapse2"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapse2"
+        style="text-decoration: underline;"
+      >
+      
+
+    Palmira Systems
+    </a >
+  </h2>
+  <div 
+    class="collapse" 
+    id="collapse2" >
+
+    <div class="list">
+
+    <ul>
+        <li><span><a href="#">TIMEKEEPER</a></span></li>
+        <li><span><a href="#">E-ACCESS</a></span></li>
+        <li><span><a href="#">DTR</a></span></li>
+      </ul>
+      </div>
+  </div>
+    </div>
+
+  
+
+
   </div>
 
 
@@ -116,7 +192,7 @@
   <footer>
   <div class="footer">
 
-<h6 class="footer_header">Management Informaton System Department</h6>
+<h6 class="footer_header"><strong>M</strong>anagement <strong>I</strong>nformaton <strong>S</strong>ystem <strong>D</strong>epartment</h6>
 <div class="row">
 <ul>
 <li><a href="http://10.0.10.10/directory/">Contact us</a></li>

@@ -1,91 +1,70 @@
-
-
 body {
   margin: 0;
   padding: 0;
   height: 120vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
-  background-image: linear-gradient(to top, #fdfdfd 0%, #ecf2f4 100%) ;
-
+  background-image:
+    linear-gradient(to bottom, rgba(221, 226, 255, 0.73), rgb(245, 250, 255)),
+    url('bg_pic.jpg');
+    background-size: cover;
 }
 
 h1 {
+  /* ACEMCP HEADER*/
   text-align: center;
   padding-top: 1vh;
   padding-bottom: 1vh;
   font-family: "Libre Franklin";
   margin: auto;
-  margin-top: 5vh;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 400;
-  /* ACEMCP HEADER*/
-  background-image: linear-gradient(-20deg, #212427 0%, #212427 100%);
+  background-image: linear-gradient(-20deg, #000000 0%, #000000 100%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  cursor:context-menu;
+  cursor: context-menu;
 }
+
 h2 {
   text-align: left;
-  font-weight: 300;
+  font-weight: 350;
   font-family: "Libre Franklin";
 }
 
-.navbar{
-  margin-left: 25px;
-}
 
-.navbar-brand{
-margin-right: auto;
-  font-family: "Libre Franklin";
-  margin: auto;
-  color: #212427;
-  font-size: 3vh;
-  
-}
-.navbar-brand:hover{
-  
-    color: #212427;
-    pointer-events: none;
-    
-  }
-
-
-h2.Bottom.Header{
+/*card*/
+h2.Bottom.Header {
   text-align: center;
-  margin-bottom: 3vh;
+  margin-bottom: 4vh;
+  font-weight: 400;
 }
-/* Gradient transparent - color - transparent */
-/* ===== FOR DEMO ===== */
+
 .demo {
   height: 40vh;
   width: 1500px;
   margin: 0 auto;
 
 }
+
 .demo-card {
-
   border-radius: 30px;
-
   height: 250px;
   width: 250px;
-
 }
-/* ===== FOR DEMO ===== */
-/* ===== MAIN CODE ===== */
+
 .content {
-
-
   pointer-events: none;
   transition: all 0.6s;
 }
+
 .card-hghlght {
   pointer-events: auto;
   transform: scale(1);
   transition: all 0.6s;
   margin-right: auto;
 }
+
 .card-hghlght:hover {
   opacity: 1;
 
@@ -93,28 +72,22 @@ h2.Bottom.Header{
 
 }
 
-
 .content:hover .card-hghlght:not(:hover) {
   opacity: 0.50;
   transform: scale(.9);
 }
 
-/* ===== MAIN CODE ===== */
 
 
-
-/* CSS */
 .button-35 {
- 
+
   border-radius: 20px;
   box-shadow: transparent 0 0 0 10px, rgba(18, 18, 18, 0.609) 0 6px 20px;
   box-sizing: border-box;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-
   cursor: pointer;
-
   font-family: "Libre Franklin";
   font-size: 1rem;
   font-weight: 700;
@@ -132,89 +105,152 @@ h2.Bottom.Header{
   margin-block-start: 10px;
   display: block;
 }
-
 .button-35:hover {
- color: #fffffff0;
- 
+  color: #fffffff0;
   box-shadow: #010029 0 0 0 4px, transparent 0 0 0 0;
   background-color: #212427;
+}
+/*card end*/
 
-}
-.navbrandico{
-  width: 40px;
-  height: 30px;
-  margin-right: 10px;
-}
-a{
+a {
   text-decoration: none;
+  font-weight: 400;
   color: #212427;
 }
-ul{
+
+ul {
   text-decoration: none;
   list-style-type: none;
   margin: 0;
-  padding: 0  ;
+  padding: 0;
 }
-.footer_header{
+span.navbar-brand{
+  color: white;
+}
+.navbar{
+ color: white;
+  background: #212529;
+  padding: 10px 0px;
+  font-family: "Libre Franklin";
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.navbar .row ul li{
+  display: inline-block;
+  margin: 0px 30px;
+}
+.nav-item{
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  margin-top: 10vh;
+  background: #212529;
+  padding: 30px 0px;
+  font-family: "Libre Franklin";
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 1em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: rgb(187, 187, 187);
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+h6.footer_header{
   color: white;
 }
 
 
-.footer{
-  margin-top: auto;
-  background:#000;
-  padding:30px 30px;
-  font-family: 'Play', sans-serif;
-  text-align:center;
-  }
-  
-  .footer .row{
-  width:100%;
-  margin:1% 0%;
-  padding:0.6% 0%;
-  color:gray;
-  font-size:0.8em;
-  }
-  
-  .footer .row a{
-  text-decoration:none;
-  color:gray;
-  transition:0.5s;
-  }
-  
-  .footer .row a:hover{
-  color:#fff;
-  }
-  
-  .footer .row ul{
-  width:100%;
-  }
-  
-  .footer .row ul li{
-  display:inline-block;
-  margin:0px 30px;
-  }
-  
-  .footer .row a i{
-  font-size:2em;
-  margin:0% 1%;
-  }
-  
-  @media (max-width:720px){
-  .footer{
-  text-align:left;
-  padding:5%;
-  }
-  .footer .row ul li{
-  display:block;
-  margin:10px 0px;
-  text-align:left;
-  }
-  .footer .row a i{
-  margin:0% 3%;
-  }
-  }
 
-  .container.other{
-    margin-top: 5vh;
-  }
+.container.other {
+  margin-top: 2vh;
+  
+}
+
+.col-sm li {
+  margin-bottom: 5px;
+}
+
+.list {
+  position: relative;
+}
+
+.list h2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.list ul {
+  position: relative;
+}
+
+.list ul li {
+  position: relative;
+  left: 0;
+  color: #272f3a;
+  list-style: none;
+  margin: 4px 0;
+  border-left: 2px solid #212427;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.list ul li:hover {
+  left: 10px;
+}
+
+.list ul li span {
+  position: relative;
+  padding: 8px;
+  padding-left: 12px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.list ul li:hover span {
+  color: #111;
+}
+
+.list ul li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c7c7c7d1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+.list ul li:hover:before {
+  transform: scaleX(1);
+}
