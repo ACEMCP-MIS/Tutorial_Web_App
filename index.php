@@ -31,7 +31,7 @@
   </div>
 </nav>
   
-  <h1>ACEMCP GUIDES</h1>
+  <h1>Ace Medical Center Palawan Systems and Apps</h1>
 
 
   <section class="content demo">

@@ -49,7 +49,7 @@
     <h2>Guidelines</h2>
 <p>Click on the buttons inside the tabbed menu:</p>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Admitting</button>
+  <button class="tablinks" onclick="openCity(event, 'London')">Adding New Patient OPD/ER</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Charging</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Discharge</button>
 </div>

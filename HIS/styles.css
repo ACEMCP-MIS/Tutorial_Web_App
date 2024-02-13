@@ -28,7 +28,7 @@ span.navbar-brand{
 }
 .navbar{
   color: white;
-   background: #212529;
+   background: rgba(8, 25, 44, 0.664);
    padding: 10px 0px;
    font-family: "Libre Franklin";
    text-align: center;
@@ -87,7 +87,7 @@ hr {
 .tab {
   overflow: hidden;
   justify-content: space-evenly;
-  background-color: #f1f1f150;
+  
   border-radius: 10px;
 }
 .tablinks{
@@ -102,23 +102,27 @@ hr {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgba(64, 105, 149, 0.332);
+  color: black;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  border-radius: 1rem;
+  background-color: rgb(18, 60, 106);
+  color: white;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
+  margin: 30px 50px ;
   padding: 6px 12px;
- 
 
 }
