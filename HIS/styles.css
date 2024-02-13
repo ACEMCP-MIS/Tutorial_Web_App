@@ -1,21 +1,124 @@
-h1{
-    text-align: center;
-    padding-top:4vh ;
-    padding-bottom:1vh ;
-    font-family: "Libre Franklin";
-    color: rgb(18, 60, 106);
-    margin: auto;
-}
 
 body{
-  background-image: linear-gradient(
-    to bottom,
-    rgba(100, 185, 194, 0.6),
-    rgba(255, 255, 255, 0.309)
-  ), url("bg_pic.jpg");
-  background-size: cover;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 120vh;
+  background-repeat: no-repeat;
+  font-family: "Libre Franklin";
+  background-image:
+    linear-gradient(to bottom, rgba(221, 226, 255, 0.866), rgb(245, 250, 255)),
+    url('bg_pic.jpg');
+    background-size: cover;
+}
+h1{
+  text-align: center;
+  padding-top:4vh ;
+  padding-bottom:1vh ;
+  font-family: "Libre Franklin";
+  color: rgb(18, 60, 106);
+  margin: auto;
+  font-size: 70px;
+}
+
+.section.heading{
+  margin-top: 20vh;
+}
+span.navbar-brand{
+  color: white;
+}
+.navbar{
+  color: white;
+   background: #212529;
+   padding: 10px 0px;
+   font-family: "Libre Franklin";
+   text-align: center;
+   margin-bottom: 5vh;
+ }
+ .navbar .row ul li{
+   display: inline-block;
+   margin: 0px 30px;
+ }
+ .nav-item{
+   text-decoration: none;
+   color: white;
+ }
+
+ 
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #212427;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container.heading{
+  text-align: left;
+  margin-top: 50px;
+}
+.container.heading h2{
+ font-size: 40px;
+ font-weight: 600;
+ color: rgb(18, 60, 106);
+}
+.img.header{
+  margin-left: 100px;
+  width: 500px;
+  box-shadow: transparent 0 0 0 10px, rgba(6, 12, 65, 0.609) 0 6px 20px;
+}
+.description{
+  font-weight: 300;
+  font-size: 25px;
+}
+
+hr {
+  margin-top: 50px;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(12, 11, 42), rgba(5, 4, 23, 0));
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  justify-content: space-evenly;
+  background-color: #f1f1f150;
+  border-radius: 10px;
+}
+.tablinks{
+  margin-right: 100px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+ 
 
 }
