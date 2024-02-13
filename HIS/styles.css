@@ -102,19 +102,21 @@ hr {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+  
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: rgba(64, 105, 149, 0.332);
   color: black;
+  border-radius: 2rem;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: rgb(18, 60, 106);
   color: white;
 }
