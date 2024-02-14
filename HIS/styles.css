@@ -132,7 +132,8 @@ hr {
 /* Style the patient registration accordion content */
 
 .container.regi img{
-  margin: 20px 300px;
+  margin-left: 25%;
+  margin-right: 25%;
   justify-content: center;
 }
 
@@ -143,6 +144,7 @@ hr {
 
 
 #Regi_4{
-  margin: 10px 270px;
+  margin-left: 25%;
+  margin-right: 25%;
   justify-content: center;
 }
