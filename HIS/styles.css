@@ -2,7 +2,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 120vh;
+  height: 200vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
   background-image:
@@ -68,7 +68,7 @@ ul {
 .img.header{
   margin-left: 100px;
   width: 500px;
-  box-shadow: transparent 0 0 0 10px, rgba(6, 12, 65, 0.609) 0 6px 20px;
+  box-shadow: transparent 0 0 0 10px, rgba(18, 61, 106, 0.584) 0 6px 20px;
 }
 .description{
   font-weight: 300;
@@ -147,4 +147,10 @@ hr {
   margin-left: 25%;
   margin-right: 25%;
   justify-content: center;
+}
+img{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: transparent 0 0 0 10px, rgba(8, 35, 48, 0.671) 0 6px 20px;
+  border-radius: .5rem;
 }
