@@ -154,3 +154,85 @@ img{
   box-shadow: transparent 0 0 0 10px, rgba(8, 35, 48, 0.671) 0 6px 20px;
   border-radius: .5rem;
 }
+
+
+/*card*/
+
+
+/*card*/
+h2.Bottom.Header {
+  text-align: center;
+  margin-bottom: 4vh;
+  font-weight: 400;
+}
+
+.demo {
+  height: 40vh;
+  width: 1500px;
+  margin: 0 auto;
+
+}
+
+.demo-card {
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+}
+
+.content {
+  pointer-events: none;
+  transition: all 0.6s;
+}
+
+.card-hghlght {
+  pointer-events: auto;
+  transform: scale(1);
+  transition: all 0.6s;
+  margin-right: auto;
+}
+
+.card-hghlght:hover {
+  opacity: 1;
+
+  transform: scale(1.1);
+
+}
+
+.content:hover .card-hghlght:not(:hover) {
+  opacity: 0.50;
+  transform: scale(.9);
+}
+
+
+
+.button-35 {
+
+  border-radius: 20px;
+  box-shadow: transparent 0 0 0 10px, rgba(18, 18, 18, 0.609) 0 6px 20px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  font-family: "Libre Franklin";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .4s, -webkit-box-shadow .4s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-block-start: 10px;
+  display: block;
+}
+.button-35:hover {
+  color: #fffffff0;
+  box-shadow: #010029 0 0 0 4px, transparent 0 0 0 0;
+  background-color: #212427;
+}
