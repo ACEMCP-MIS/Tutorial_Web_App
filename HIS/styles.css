@@ -2,7 +2,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 200vh;
+  height: 150vh;
   background-repeat: no-repeat;
   font-family: "Libre Franklin";
   background-image:
@@ -10,6 +10,7 @@ body{
     url('HIS_assets/bg_pic.jpg');
     background-size: cover;
 }
+
 h1{
   text-align: center;
   padding-top:4vh ;
@@ -254,4 +255,10 @@ h2.Bottom.Header {
 
 #myBtn:hover {
   background-color: #050101;
+}
+
+#FAQ_Section{
+  padding: 20px;
+  background-color: white;
+  border-radius: 1rem;
 }

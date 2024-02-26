@@ -47,7 +47,7 @@
               <h2><strong>H</strong>EALTH <strong>I</strong>NFORMATION <strong>S</strong>YSTEM</h2>
               <h6>Health <br>Information System Guidelines
               </h6>
-              <button class="button-35" role="button" onclick="document.location='HIS/HOME_HIS.php'">Go to Site</button>
+              <button class="button-35" role="button" onclick="document.location='HIS/Home_HIS.html'">Go to Site</button>
             </div>
           </div>
         </div>
