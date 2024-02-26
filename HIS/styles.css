@@ -262,3 +262,11 @@ h2.Bottom.Header {
   background-color: white;
   border-radius: 1rem;
 }
+.hstack{
+  justify-content: space-evenly;
+}
+
+.fs-1 a:hover{
+  color: #0c2f7cf0;
+  
+}
