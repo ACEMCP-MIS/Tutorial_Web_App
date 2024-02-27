@@ -42,7 +42,7 @@
     <div class="container">
 
     </div>
-  <div class="container body">
+  <div class="container">
 
     <div class="hstack gap-3">
       
@@ -54,6 +54,7 @@
         Requisition
       </a>
       </div>
+
       <div class="fs-1"><a
         data-bs-toggle="collapse" 
         href="#collapse_Post" 
@@ -61,6 +62,15 @@
         aria-controls="collapseExample">
         Post Charges
       </a></div>
+      <div class="fs-1"><a
+        data-bs-toggle="collapse" 
+        href="#collapse_Cash" 
+        role="button" aria-expanded="false" 
+        aria-controls="collapseExample">
+        Cash Transaction
+      </a>
+      </div>
+      
       <div class="fs-1">
         <a
         data-bs-toggle="collapse" 
@@ -83,59 +93,79 @@
     </div>
 
 
-    <div class="collapse" id="collapse_Requisition">
-     <!-- REQUISITION -->
-     <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--REQUISITION END-->
-    </div>
-    <div class="collapse" id="collapse_Post">
-      <div class="p-1">REQUISITION</div>
-     </div>
-     <div class="collapse" id="collapse_Rendering">
-      <div class="p-1">REQUISITION</div>
-     </div>
-     <div class="collapse" id="collapse_Credit">
-       <div class="p-1">REQUISITION</div>
-      </div>
+    
 
-<!--CONTAINER BODY END-->
+<!--CONTAINER FLUID END-->
+
+<div class="container-sm">
+  
+   
+  <!--Requisition--> <div class="collapse" id="collapse_Requisition">
+    <h5>Guidelines For requesting items and services from ancillaries</h5>
+        <div class="row"><p>
+          From the outpatient, Emergency, Inpatient, Nursing services Modules There's a 
+          Requisition option on the Left Side of the Interface at the subcomponent section
+        </p>
+          <img src="HIS_assets/CHRG_1.png" alt="">
+          <p>
+            Click the Requisition option and a pop up window will show up. 
+          This is the requisition ledger of the patient:
+          </p>
+          <img src="HIS_assets/CHRG_2.png" alt="">
+
+          <p>As you can see the color coding of each request represents as blue, gray, sky blue, magenta, and red.</p>
+          <p>Each Color has a status.</p>
+          <img src="HIS_assets/CHRG_8.png" alt="" style="width: 500px;">
+          <ul> 
+            <li><strong style="color: gray;">Gray</strong> color is for unrendered, Meaning the request is being reviewed by the ancillary for rendering.</li>
+            <li><strong style="color: blue;">Blue</strong> color is for rendered. The request is added to the patients bill.</li>
+            <li><strong style="color: skyblue;">Sky Blue</strong> color is for partially rendered. The request is partially rendered 
+                meaning the other request is unavailable at the moment or late rendering of the items and services.</li>
+            <li><strong style="color: magenta;">Magenta</strong> color is for credit note; 
+              Meaning the Request has been rendered and credit noted from the patients account;
+               It will give a negative amount to zero out the rendered item and services.</li>
+            <li><strong style="color: red;">Red</strong> is for voided; The request has been voided by the requester.</li>
+          </ul>
+          <p>To request items and services you must click on the add button on the bottom right of the screen.</p>
+          <img src="HIS_assets/CHRG_2.png" alt="">
+          <p>Once clicked a window will pop up. Select the department of which ancillary that the item and services are available
+            <br> To select an item you must click on the checkbox.
+          </p>
+          <img src="HIS_assets/CHRG_3.png" alt="">
+          <img src="HIS_assets/CHRG_4.png" alt="">
+          <div class="col">
+            <p>After that select the physician of the patient.</p>
+            <img src="HIS_assets/CHRG_5.png" alt="" style="width: 400px;">
+          </div>
+          <div class="col">
+            <p>Select the physician of the patient.</p>
+            <img src="HIS_assets/CHRG_6.png" style="width: 400px;">
+          </div>
+          <div class="col">
+            <p>Print the requisition slip of the patient.</p>
+            <img src="HIS_assets/CHRG_7.png" style="width: 400px;">
+          </div>
+          <p>To check if the request has gone through. There will be a Gray color besides the ancillary.</p>
+          <img src="HIS_assets/CHRG_9.png" alt="">
+          <strong>Strongly advised to check the quantity of the request to avoid discrepancies and mischarges.</strong>
+        </div>
+   </div> 
+    <!--End Requisition-->
+   <div class="collapse" id="collapse_Post">
+     <div class="p-1">To Post Charge a patient go to Outpatient or Inpatient module
+
+     </div>
+    </div>
+    <div class="collapse" id="collapse_Cash">
+     <div class="p-1">Cash Transaction</div>
+    </div>
+    <div class="collapse" id="collapse_Rendering">
+     <div class="p-1">Rendering</div>
+    </div>
+    <div class="collapse" id="collapse_Credit">
+      <div class="p-1">Credit note</div>
+     </div>
+</div>
     </div>
     <div class="container-md">
       <div class="row">
