@@ -283,3 +283,9 @@ h2.Bottom.Header {
 
 
 
+.col{
+  display: inline;
+  vertical-align: top;
+  align-content: space-evenly;
+  grid-template-columns: auto auto ;
+}

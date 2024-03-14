@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="container">
+        <span class="navbar-brand">Ace Medical Center Palawan</span>
+          <div class="row">
+          <ul class="navlist">
+              <li><a class="nav-item" href="Home_HIS.html">Home</a></li>
+              <li><a class="nav-item" href="http://10.0.10.10/directory/">Contacts</a></li>
+              
+            </ul>
+          </div>
+            
+          
+        
+        </div>
+      </nav>
+      <!--Title Page-->
+      <h1>Materials Management System Guidelines</h1>
+      <!--Heading Content-->
+      
+        <!--Divider-->
+        <hr>
+
+    <!--STEPS PR PO RR-->
+    <div class="container">
+        <h6>These are the steps for purchasing items and requesting</h6>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container-fluid p-2 align-items-center">
+            <div class="d-flex justify-content-around">
+              <button
+              class="btn text-white "
+              style="border-radius: 1rem;
+             background-color: #123c6a;"
+                data-bs-toggle="collapse"
+                data-bs-target="#company1"
+                aria-expanded="true"
+                aria-controls="company1"
+                onclick="stepFunction(event)"
+              >
+                Purchase Requisition
+              </button>
+              <span
+              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
+              style="height: 0.2rem;
+              background-color: #3066a0"
+
+              >
+              </span>
+              <button
+              class="btn text-white "
+              style="border-radius: 1rem;
+              background-color: #123c6a;
+              "
+                data-bs-toggle="collapse"
+                data-bs-target="#company2"
+                aria-expanded="false"
+                aria-controls="company3"
+                onclick="stepFunction(event)"
+              >
+                Purchase Order
+              </button>
+              <span
+                class="w-25 rounded mt-auto mb-auto me-1 ms-1"
+                style="height: 0.2rem;
+                background-color: #3066a0;"
+
+              >
+              </span>
+              <button
+              class="btn text-white "
+              style="border-radius: 1rem;
+              background-color: #123c6a;"
+                data-bs-toggle="collapse"
+                data-bs-target="#company3"
+                aria-expanded="false"
+                aria-controls="company3"
+                onclick="stepFunction(event)"
+              >
+                Deliveries and Recieving Entry
+              </button>
+              <span
+              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
+              style="height: 0.2rem;
+              background-color: #3066a0;"
+
+              >
+              </span>
+              <button
+              class="btn text-white "
+              style="border-radius: 1rem;
+              background-color: #123c6a;"
+                data-bs-toggle="collapse"
+                data-bs-target="#company4"
+                aria-expanded="false"
+                aria-controls="company4"
+                onclick="stepFunction(event)"
+              >
+                Expense Requisiton
+              </button>
+              <span
+              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
+              style="height: 0.2rem;
+              background-color: #3066a0;"
+
+              >
+              </span>
+              <button
+              class="btn text-white "
+              style="border-radius: 1rem;
+              background-color: #123c6a;"
+                data-bs-toggle="collapse"
+                data-bs-target="#company5"
+                aria-expanded="false" 
+                aria-controls="company5"
+                onclick="stepFunction(event)"
+              >
+                Stock Requisition
+              </button>
+            </div>
+          </div>
+
+          <div class="collapse show" id="company1">
+            <div class="display-4">Company 1</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+          <div class="collapse" id="company2">
+            <div class="display-4">Company 2</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+          <div class="collapse" id="company3">
+            <div class="display-4">Company 3</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+          <div class="collapse" id="company4">
+            <div class="display-4">Company 4</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.dataset.bsTheme =
+          element.dataset.bsTheme == "light" ? "dark" : "light";
+      }
+      function stepFunction(event) {
+        debugger;
+        var element = document.getElementsByClassName("collapse");
+        for (var i = 0; i < element.length; i++) {
+          if (element[i] !== event.target.ariaControls) {
+            element[i].classList.remove("show");
+          }
+        }
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
