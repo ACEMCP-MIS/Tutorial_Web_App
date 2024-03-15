@@ -289,3 +289,19 @@ body{
     align-content: space-evenly;
     grid-template-columns: auto auto ;
   }
+  
+  .form-check input{
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.6);
+    margin: 10px;
+  }
+#checklistForm{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#checklistForm li{
+  margin-top: 10px;
+
+}

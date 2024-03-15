@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>MMS guidelines</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -45,7 +45,8 @@
 
     <!--STEPS PR PO RR-->
     <div class="container">
-        <h6>These are the steps for purchasing items and requesting</h6>
+        <h2>New Purchasing Cycle</h2>
+        <p>These are the proper steps to PR,PO and D/R in Materials Management System(MMS)</p>
       <div class="row">
         <div class="col-md-12">
           <div class="container-fluid p-2 align-items-center">
@@ -141,24 +142,145 @@
               </button>
             </div>
           </div>
-
+          <!--PR Start-->
           <div class="collapse show" id="company1">
-            <div class="display-4">Company 1</div>
+            <div class="display-4">Purchase Requisition</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
+              The New Purchasing Cycle Starts here in Purchase requisiton module. Introducing our revamped purchasing cycle! Streamlined for efficiency and effectiveness, our new process aims to enhance your procurement experience. Discover simplified steps and enhanced features designed to optimize your purchasing journey from start to finish." <strong>You can open this site while making your transaction in Materials Management System. </strong>
             </p>
+            <p>Note: You can check the box to follow along while using both guide and MMS</p>
+            <div class="container">
+              <h3>Creation of PR</h3>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col col-lg-2">
+                    <form id="checklistForm" class="form-check">
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="item1">
+                            <label for="item1">
+                              <button 
+                              class="btn btn-primary" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#collapseExample_1" 
+                              aria-expanded="true" 
+                              aria-controls="collapseExample">
+                              1st Step
+                              </button>
+                            </label>
+                        </li>
+
+                        <li>
+                          <input type="checkbox" id="item1">
+                          <label for="item2">
+                              <button 
+                              class="btn btn-primary" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#collapseExample_2" 
+                              aria-expanded="true" 
+                              aria-controls="collapseExample">
+                              2nd Step
+                              </button>
+                            </label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="item3">
+                          <label for="item3">
+                              <button 
+                              class="btn btn-primary" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#collapseExample_3" 
+                              aria-expanded="true" 
+                              aria-controls="collapseExample">
+                              3rd Step
+                              </button>
+                            </label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="item4">
+                          <label for="item4">
+                              <button 
+                              class="btn btn-primary" 
+                              type="button" 
+                              data-bs-toggle="collapse" 
+                              data-bs-target="#collapseExample" 
+                              aria-expanded="true" 
+                              aria-controls="collapseExample">
+                              4th step
+                              </button>
+                            </label>
+                        </li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="col">
+
+                    <!--step 1-->
+                    <div class="collapse" id="collapseExample_1">
+                      <div class="card">
+                        <div class="card-header">
+                          <div class="p">Open Materials Management System</div>
+                        </div>
+                        <div class="card-body">
+                          <p>After you opened MMS, Click the Purchase Requisition from Transaction module:</p>
+                          <img src="MMS_assets/PR_PR_module.png" alt="" width="1000px">
+                          <p>Show filters and select the department you are in</p>
+                          <img src="MMS_assets/PR_Show_Filters.png" alt="">
+                          <p>Apply the filter</p>
+                          <p>go to Step 2</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--step 1 end-->
+
+                    <!--step 2 start-->
+                    <div class="collapse" id="collapseExample_2">
+                      <div class="card">
+                        <div class="card-header">
+                          <div class="p">Creation of Purchase Requisition</div>
+                        </div>
+                        <div class="card-body">
+                          <p>While on the PR module Click the <strong>new</strong> button to create PR:</p>
+                          <img src="MMS_assets/PR_new_button.png" alt="" width="1000px">
+                          <p>A window popup will show the Purchase Requisition Details</p>
+                          <p>There are fields that are needed to be filled out such as Requisition from and Requisition to</p>
+                          <p>note: Add all the neccessary details (date, and date required)</p>
+                          <img src="MMS_assets/PR_Req_details.png" alt="" width="1000px">
+                          
+                          <p>go to Step 2</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--step 2 end-->
+                    <!--step 3 start-->
+                    <div class="collapse" id="collapseExample_3">
+                      <div class="card">
+                        <div class="card-header">
+                          <div class="p">Selection of items</div>
+                        </div>
+                        <div class="card-body">
+                          <p>While on the PR module Click the new button to create PR:</p>
+                          <img src="MMS_assets/PR_new_button.png" alt="" width="1000px">
+                          <p>A window popup will show the Purchase Requisition Details</p>
+                          <img src="MMS_assets/PR_Req_details.png" alt="" width="1000px">
+                          <p>There are fields that are needed to be filled out. such as Requisition from and Requisition to</p>
+                          <p>go to Step 2</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--step 3 end-->
+                  </div>
+                </div>
+              </div>
           </div>
+          
+         
+          </div>
+          <!--PR End-->
           <div class="collapse" id="company2">
             <div class="display-4">Company 2</div>
             <p>
@@ -212,15 +334,11 @@
           </div>
         </div>
       </div>
+      <a href="https://docs.google.com/presentation/d/1h8q7F-2yBOgPft6CF1NIewms_FYkniDp/edit?usp=drive_link&ouid=115285123663293912590&rtpof=true&sd=true">Documentation for new PR,PO,D/R Process</a>
     </div>
     
 
     <script>
-      function myFunction() {
-        var element = document.body;
-        element.dataset.bsTheme =
-          element.dataset.bsTheme == "light" ? "dark" : "light";
-      }
       function stepFunction(event) {
         debugger;
         var element = document.getElementsByClassName("collapse");
@@ -242,5 +360,6 @@
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
