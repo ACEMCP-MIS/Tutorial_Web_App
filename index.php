@@ -58,7 +58,7 @@
             <h2><strong>M</strong>ATERIALS <strong>M</strong>ANAGEMENT <strong>S</strong>YSTEM</h2>
             <h6>Materials Management System Guidelines
             </h6>
-            <button class="button-35" role="button">Go to Site</button>
+            <button class="button-35" role="button" onclick="document.location='MMS/index.html'">Go to Site</button>
           </div>
         </div>
       </div>
@@ -151,6 +151,7 @@
         <li><span><a href="http://10.0.10.10/vattable_doctors/">List of Vattable Doctors</a></span></li>
         <li><span><a href="#">Investor's Discount List </a></span></li>
        <li><span><a href="http://10.0.1.3/ACEMEMO/">Ace Memorandum Handler </a></span></li>
+       <li><span><a href="http://10.0.1.3/aceprice/">Item Price List </a></span></li>
       </ul>
       </div>
   </div>

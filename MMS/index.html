@@ -1,365 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MMS guidelines</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <nav class="navbar">
-        <div class="container">
-        <span class="navbar-brand">Ace Medical Center Palawan</span>
-          <div class="row">
-          <ul class="navlist">
-              <li><a class="nav-item" href="Home_HIS.html">Home</a></li>
-              <li><a class="nav-item" href="http://10.0.10.10/directory/">Contacts</a></li>
-              
-            </ul>
-          </div>
-            
-          
-        
-        </div>
-      </nav>
-      <!--Title Page-->
-      <h1>Materials Management System Guidelines</h1>
-      <!--Heading Content-->
-      
-        <!--Divider-->
-        <hr>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MMS guidelines</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
-    <!--STEPS PR PO RR-->
+</head>
+
+<body>
+  <nav class="navbar">
     <div class="container">
-        <h2>New Purchasing Cycle</h2>
-        <p>These are the proper steps to PR,PO and D/R in Materials Management System(MMS)</p>
+      <span class="navbar-brand">Ace Medical Center Palawan</span>
       <div class="row">
-        <div class="col-md-12">
-          <div class="container-fluid p-2 align-items-center">
-            <div class="d-flex justify-content-around">
-              <button
-              class="btn text-white "
-              style="border-radius: 1rem;
-             background-color: #123c6a;"
-                data-bs-toggle="collapse"
-                data-bs-target="#company1"
-                aria-expanded="true"
-                aria-controls="company1"
-                onclick="stepFunction(event)"
-              >
-                Purchase Requisition
-              </button>
-              <span
-              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
-              style="height: 0.2rem;
-              background-color: #3066a0"
+        <ul class="navlist">
+          <li><a class="nav-item" href="Home_HIS.html">Home</a></li>
+          <li><a class="nav-item" href="http://10.0.10.10/directory/">Contacts</a></li>
 
-              >
-              </span>
-              <button
-              class="btn text-white "
-              style="border-radius: 1rem;
+        </ul>
+      </div>
+
+
+
+    </div>
+  </nav>
+  <!--Title Page-->
+  <h1>Materials Management System Guidelines</h1>
+  <!--Heading Content-->
+
+  <!--Divider-->
+  <hr>
+
+  <!--STEPS PR PO RR-->
+  <div class="container main" id="main_container">
+    <h2>New Purchasing Cycle</h2>
+    <p>These are the proper steps to PR,PO and D/R in Materials Management System(MMS)</p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container-fluid p-2 align-items-center">
+          <div class="d-flex justify-content-around">
+            <button class="btn text-white " style="border-radius: 1rem;
+             background-color: #123c6a;" data-bs-toggle="collapse" data-bs-target="#company1" aria-expanded="true"
+              aria-controls="company1" onclick="stepFunction(event)">
+              Purchase Requisition
+            </button>
+            <span class="w-25 rounded mt-auto mb-auto me-1 ms-1" style="height: 0.2rem;
+              background-color: #3066a0">
+            </span>
+            <button class="btn text-white " style="border-radius: 1rem;
               background-color: #123c6a;
-              "
-                data-bs-toggle="collapse"
-                data-bs-target="#company2"
-                aria-expanded="false"
-                aria-controls="company3"
-                onclick="stepFunction(event)"
-              >
-                Purchase Order
-              </button>
-              <span
-                class="w-25 rounded mt-auto mb-auto me-1 ms-1"
-                style="height: 0.2rem;
-                background-color: #3066a0;"
-
-              >
-              </span>
-              <button
-              class="btn text-white "
-              style="border-radius: 1rem;
-              background-color: #123c6a;"
-                data-bs-toggle="collapse"
-                data-bs-target="#company3"
-                aria-expanded="false"
-                aria-controls="company3"
-                onclick="stepFunction(event)"
-              >
-                Deliveries and Recieving Entry
-              </button>
-              <span
-              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
-              style="height: 0.2rem;
-              background-color: #3066a0;"
-
-              >
-              </span>
-              <button
-              class="btn text-white "
-              style="border-radius: 1rem;
-              background-color: #123c6a;"
-                data-bs-toggle="collapse"
-                data-bs-target="#company4"
-                aria-expanded="false"
-                aria-controls="company4"
-                onclick="stepFunction(event)"
-              >
-                Expense Requisiton
-              </button>
-              <span
-              class="w-25 rounded mt-auto mb-auto me-1 ms-1"
-              style="height: 0.2rem;
-              background-color: #3066a0;"
-
-              >
-              </span>
-              <button
-              class="btn text-white "
-              style="border-radius: 1rem;
-              background-color: #123c6a;"
-                data-bs-toggle="collapse"
-                data-bs-target="#company5"
-                aria-expanded="false" 
-                aria-controls="company5"
-                onclick="stepFunction(event)"
-              >
-                Stock Requisition
-              </button>
-            </div>
+              " data-bs-toggle="collapse" data-bs-target="#company2" aria-expanded="false" aria-controls="company3"
+              onclick="stepFunction(event)">
+              Purchase Order
+            </button>
+            <span class="w-25 rounded mt-auto mb-auto me-1 ms-1" style="height: 0.2rem;
+                background-color: #3066a0;">
+            </span>
+            <button class="btn text-white " style="border-radius: 1rem;
+              background-color: #123c6a;" data-bs-toggle="collapse" data-bs-target="#company3" aria-expanded="false"
+              aria-controls="company3" onclick="stepFunction(event)">
+              Deliveries and Recieving Entry
+            </button>
+            <span class="w-25 rounded mt-auto mb-auto me-1 ms-1" style="height: 0.2rem;
+              background-color: #3066a0;">
+            </span>
+            <button class="btn text-white " style="border-radius: 1rem;
+              background-color: #123c6a;" data-bs-toggle="collapse" data-bs-target="#company4" aria-expanded="false"
+              aria-controls="company4" onclick="stepFunction(event)">
+              Expense Requisiton
+            </button>
+            <span class="w-25 rounded mt-auto mb-auto me-1 ms-1" style="height: 0.2rem;
+              background-color: #3066a0;">
+            </span>
+            <button class="btn text-white " style="border-radius: 1rem;
+              background-color: #123c6a;" data-bs-toggle="collapse" data-bs-target="#company5" aria-expanded="false"
+              aria-controls="company5" onclick="stepFunction(event)">
+              Stock Requisition
+            </button>
           </div>
-          <!--PR Start-->
-          <div class="collapse show" id="company1">
-            <div class="display-4">Purchase Requisition</div>
-            <p>
-              The New Purchasing Cycle Starts here in Purchase requisiton module. Introducing our revamped purchasing cycle! Streamlined for efficiency and effectiveness, our new process aims to enhance your procurement experience. Discover simplified steps and enhanced features designed to optimize your purchasing journey from start to finish." <strong>You can open this site while making your transaction in Materials Management System. </strong>
-            </p>
-            <p>Note: You can check the box to follow along while using both guide and MMS</p>
-            <div class="container">
-              <h3>Creation of PR</h3>
-              
-              <div class="container">
+        </div>
+        <!--PR Start-->
+        <div class="collapse show" id="company1">
+          <div class="display-4">Purchase Requisition</div>
+          <p>
+            The New Purchasing Cycle Starts here in Purchase requisiton module. Introducing our revamped purchasing
+            cycle! Streamlined for efficiency and effectiveness, our new process aims to enhance your procurement
+            experience. Discover simplified steps and enhanced features designed to optimize your purchasing journey
+            from start to finish." <strong>You can open this site while making your transaction in Materials Management
+              System. </strong>
+          </p>
+          <p>Note: You can check the box to follow along while using both guide and MMS</p>
+          <div class="container">
+            <h3><a href="#Start_PR"><button class="button-18" onclick="showDiv()" id="Start_here">
+                  Start Creating Purchase Requisition
+                </button></a></h3>
+
+            <div class="container" id="Start_PR">
+              <div class="row">
+                <!--Selection of steps start-->
                 <div class="row">
-                  <div class="col col-lg-2">
-                    <form id="checklistForm" class="form-check">
-                      <ul>
-                        <li>
-                          <input type="checkbox" id="item1">
-                            <label for="item1">
-                              <button 
-                              class="btn btn-primary" 
-                              type="button" 
-                              data-bs-toggle="collapse" 
-                              data-bs-target="#collapseExample_1" 
-                              aria-expanded="true" 
-                              aria-controls="collapseExample">
-                              1st Step
-                              </button>
-                            </label>
-                        </li>
+                  <form>
+                    <ul class="PR_STEPS">
 
-                        <li>
-                          <input type="checkbox" id="item1">
-                          <label for="item2">
-                              <button 
-                              class="btn btn-primary" 
-                              type="button" 
-                              data-bs-toggle="collapse" 
-                              data-bs-target="#collapseExample_2" 
-                              aria-expanded="true" 
-                              aria-controls="collapseExample">
-                              2nd Step
-                              </button>
-                            </label>
-                        </li>
-                        <li>
-                          <input type="checkbox" id="item3">
-                          <label for="item3">
-                              <button 
-                              class="btn btn-primary" 
-                              type="button" 
-                              data-bs-toggle="collapse" 
-                              data-bs-target="#collapseExample_3" 
-                              aria-expanded="true" 
-                              aria-controls="collapseExample">
-                              3rd Step
-                              </button>
-                            </label>
-                        </li>
-                        <li>
-                          <input type="checkbox" id="item4">
-                          <label for="item4">
-                              <button 
-                              class="btn btn-primary" 
-                              type="button" 
-                              data-bs-toggle="collapse" 
-                              data-bs-target="#collapseExample" 
-                              aria-expanded="true" 
-                              aria-controls="collapseExample">
-                              4th step
-                              </button>
-                            </label>
-                        </li>
-                      </ul>
-                    </form>
+                      <li>
+                        <label for="task1">
+                          <input type="checkbox" id="task1" name="task1" onchange="toggleCollapsible('task1')">
+                          Step 1
+                        </label><br>
+                      </li>
+
+
+                      <li>
+                        <label for="task2">
+                          <input type="checkbox" id="task2" name="task2" onchange="toggleCollapsible('task2')">
+                          Step 2
+                        </label><br>
+                      </li>
+                      <li><label for="task3">
+                          <input type="checkbox" id="task3" name="task3" onchange="toggleCollapsible('task3')">
+                          Step 3
+                        </label><br></li>
+                      <li><label for="task4">
+                          <input type="checkbox" id="task4" name="task4" onchange="toggleCollapsible('task4')">
+                          Step 4
+                        </label><br></li>
+                      <li><label for="task5">
+                          <input type="checkbox" id="task5" name="task5" onchange="toggleCollapsible('task5')">
+                          Step 5
+                        </label><br></li>
+
+
+
+                    </ul>
+                  </form>
+                </div>
+
+
+                <div class="row">
+
+                  <!--step 1-->
+                  <div id="task1-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Open Materials Management System</div>
+                      </div>
+                      <div class="card-body">
+                        <p>After you opened MMS, Click the Purchase Requisition from Transaction module:</p>
+                        <img src="MMS_assets/PR_assets/PR_PR_module.png" alt="" width="1000px">
+                        <p>Show filters and select the department you are in</p>
+                        <img src="MMS_assets/PR_assets/PR_Show_Filters.png" alt="">
+                        <p>Apply the filter</p>
+                        <p>go to Step 2</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col">
+                  <!--step 1 end-->
 
-                    <!--step 1-->
-                    <div class="collapse" id="collapseExample_1">
-                      <div class="card">
-                        <div class="card-header">
-                          <div class="p">Open Materials Management System</div>
-                        </div>
-                        <div class="card-body">
-                          <p>After you opened MMS, Click the Purchase Requisition from Transaction module:</p>
-                          <img src="MMS_assets/PR_PR_module.png" alt="" width="1000px">
-                          <p>Show filters and select the department you are in</p>
-                          <img src="MMS_assets/PR_Show_Filters.png" alt="">
-                          <p>Apply the filter</p>
-                          <p>go to Step 2</p>
-                        </div>
+                  <!--step 2 start-->
+                  <div id="task2-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Creation of Purchase Requisition</div>
                       </div>
-                    </div>
-                    <!--step 1 end-->
+                      <div class="card-body">
+                        <p>While on the PR module Click the <strong>new</strong> button to create PR:</p>
+                        <img src="MMS_assets/PR_assets/PR_new_button.png" alt="" width="1000px">
+                        <p>A window popup will show the Purchase Requisition Details</p>
+                        <p>There are fields that are needed to be filled out such as Requisition from and Requisition to
+                        </p>
+                        <p>note: Input the neccessary details.</p>
+                        <img src="MMS_assets/PR_assets/PR_Req_details.png" alt="" width="1000px">
 
-                    <!--step 2 start-->
-                    <div class="collapse" id="collapseExample_2">
-                      <div class="card">
-                        <div class="card-header">
-                          <div class="p">Creation of Purchase Requisition</div>
-                        </div>
-                        <div class="card-body">
-                          <p>While on the PR module Click the <strong>new</strong> button to create PR:</p>
-                          <img src="MMS_assets/PR_new_button.png" alt="" width="1000px">
-                          <p>A window popup will show the Purchase Requisition Details</p>
-                          <p>There are fields that are needed to be filled out such as Requisition from and Requisition to</p>
-                          <p>note: Add all the neccessary details (date, and date required)</p>
-                          <img src="MMS_assets/PR_Req_details.png" alt="" width="1000px">
-                          
-                          <p>go to Step 2</p>
-                        </div>
+                        <p>go to Step 3</p>
                       </div>
                     </div>
-                    <!--step 2 end-->
-                    <!--step 3 start-->
-                    <div class="collapse" id="collapseExample_3">
-                      <div class="card">
-                        <div class="card-header">
-                          <div class="p">Selection of items</div>
-                        </div>
-                        <div class="card-body">
-                          <p>While on the PR module Click the new button to create PR:</p>
-                          <img src="MMS_assets/PR_new_button.png" alt="" width="1000px">
-                          <p>A window popup will show the Purchase Requisition Details</p>
-                          <img src="MMS_assets/PR_Req_details.png" alt="" width="1000px">
-                          <p>There are fields that are needed to be filled out. such as Requisition from and Requisition to</p>
-                          <p>go to Step 2</p>
-                        </div>
+                  </div>
+                  <!--step 2 end-->
+                  <!--step 3 start-->
+                  <div id="task3-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Selection of items</div>
+                      </div>
+                      <div class="card-body">
+                        <p>To add the items in the request click the add button below on the bottom left of the window.
+                        </p>
+                        <img src="MMS_assets/PR_assets/PR_Req_details.png" alt="" width="1000px">
+                        <p>To select the items you must click the checkboxes and input the quantity.
+                          <br>
+                          note: you can search using the textfield above.
+                        </p>
+                        <img src="MMS_assets/PR_assets/PR_item_Select.png" alt="" width="1000px">
+
+                        <p>Input the right amount that you will requesting.</p>
+                        <img src="MMS_assets/PR_assets/PR_items_quantity.png" alt="" width="1000px">
+                        <p>After you input the right item and quantity click select at the bottom right to continue.</p>
+                        <p>go to Step 4</p>
                       </div>
                     </div>
-                    <!--step 3 end-->
+                  </div>
+                  <!--step 3 end-->
+                  <!--Step 4 start-->
+
+                  <div id="task4-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Posting The request</div>
+                      </div>
+                      <div class="card-body">
+                        <p>To Post the request click the request then click post at the top menu:</p>
+                        <img src="MMS_assets/PR_assets/PR_for_posting.png" alt="" width="1000px">
+                        <img src="MMS_assets/PR_assets/PR_new_button.png" alt="" width="1000px">
+                        <p>A confirmation window will appear</p>
+                        <img src="MMS_assets/PR_assets/PR_Confirm_posting.png" alt="" width="500px">
+
+                        <p>Click ok if you are sure of the details and items inside the PR.</p>
+                        <img src="MMS_assets/PO_assets/save_and_close.png" alt="" width="500px">
+                        <p>Input your user code and password to confirm and post</p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--step 5 start-->
+                  <div id="task5-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Actual Process</div>
+                      </div>
+                      <div class="card-body">
+                        <p>Print Purchase Requisition Slip</p>
+                        <img src="MMS_assets/PR_assets/PR_print_request.png" alt="" width="500px">
+                        <p>Click the Print or preview to print.</p>
+                        <img src="MMS_assets/PR_assets/PR_print_request_print.png" alt="" width="500px">
+                        <strong>
+                          <p>Print Purchase Requisition Slip</p>
+                          <p>Have it Signed by your Department Manager and Department Doctor</p>
+                          <p>Note: In this Step it is not the President who will Approved your P.R it is your Head
+                            Doctor or Department Managers
+                            Once Signed by Manager and Head Doctor</p>
+                          <h6><button data-bs-toggle="collapse" data-bs-target="#company2" aria-expanded="false"
+                              aria-controls="company3" onclick="stepFunction(event)">Proceed to Purchase Order
+                              Module</button></a></h6>
+                        </strong>
+
+                      </div>
+                    </div>
                   </div>
                 </div>
+
+
+
               </div>
+            </div>
           </div>
-          
-         
-          </div>
-          <!--PR End-->
-          <div class="collapse" id="company2">
-            <div class="display-4">Company 2</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-            </p>
-          </div>
-          <div class="collapse" id="company3">
-            <div class="display-4">Company 3</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-            </p>
-          </div>
-          <div class="collapse" id="company4">
-            <div class="display-4">Company 4</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-            </p>
+
+
+        </div>
+        <!--PR End-->
+        <div class="collapse" id="company2">
+          <div class="display-4">Purchase Order</div>
+          <p>
+            The Second Part of the New Purchasing Cycle Starts here in Purchase Order module. Introducing our revamped
+            purchasing
+            cycle! Streamlined for efficiency and effectiveness, our new process aims to enhance your procurement
+            experience. Discover simplified steps and enhanced features designed to optimize your purchasing journey
+            from start to finish." <br><strong>You can open this site while making your transaction in Materials
+              Management
+              System. </strong>
+          </p>
+          <h3><a href="#Start_PO"><button class="button-18" onclick="showDivPO()" id="Start_here">
+                Start Creating Purchase Order
+              </button></a></h3>
+          <div class="container" id="Start_PO">
+            <div class="row">
+              <!--Selection of steps start-->
+              <form>
+                <ul class="PO_steps">
+
+                  <li>
+                    <label for="task1">
+                      <input type="checkbox" id="task6" name="task6" onchange="toggleCollapsible('task6')">
+                      Step 1
+                    </label><br>
+                  </li>
+
+
+                  <li>
+                    <label for="task2">
+                      <input type="checkbox" id="task2" name="task2" onchange="toggleCollapsible('task2')">
+                      Step 2
+                    </label><br>
+                  </li>
+                  <li><label for="task3">
+                      <input type="checkbox" id="task3" name="task3" onchange="toggleCollapsible('task3')">
+                      Step 3
+                    </label><br></li>
+                  <li><label for="task4">
+                      <input type="checkbox" id="task4" name="task4" onchange="toggleCollapsible('task4')">
+                      Step 4
+                    </label><br></li>
+                  <li><label for="task5">
+                      <input type="checkbox" id="task5" name="task5" onchange="toggleCollapsible('task5')">
+                      Step 5
+                    </label><br></li>
+
+
+
+                </ul>
+              </form>
+              <div class="row">
+
+                  <!--step 1-->
+                  <div id="task1-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Open Materials Management System</div>
+                      </div>
+                      <div class="card-body">
+                        <p>After you opened MMS, Click the Purchase Requisition from Transaction module:</p>
+                        <img src="MMS_assets/PR_assets/PR_PR_module.png" alt="" width="1000px">
+                        <p>Show filters and select the department you are in</p>
+                        <img src="MMS_assets/PR_assets/PR_Show_Filters.png" alt="">
+                        <p>Apply the filter</p>
+                        <p>go to Step 2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--step 1 end-->
+
+                  <!--step 2 start-->
+                  <div id="task2-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Creation of Purchase Requisition</div>
+                      </div>
+                      <div class="card-body">
+                        <p>While on the PR module Click the <strong>new</strong> button to create PR:</p>
+                        <img src="MMS_assets/PR_assets/PR_new_button.png" alt="" width="1000px">
+                        <p>A window popup will show the Purchase Requisition Details</p>
+                        <p>There are fields that are needed to be filled out such as Requisition from and Requisition to
+                        </p>
+                        <p>note: Input the neccessary details.</p>
+                        <img src="MMS_assets/PR_assets/PR_Req_details.png" alt="" width="1000px">
+
+                        <p>go to Step 3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--step 2 end-->
+                  <!--step 3 start-->
+                  <div id="task3-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Selection of items</div>
+                      </div>
+                      <div class="card-body">
+                        <p>To add the items in the request click the add button below on the bottom left of the window.
+                        </p>
+                        <img src="MMS_assets/PR_assets/PR_Req_details.png" alt="" width="1000px">
+                        <p>To select the items you must click the checkboxes and input the quantity.
+                          <br>
+                          note: you can search using the textfield above.
+                        </p>
+                        <img src="MMS_assets/PR_assets/PR_item_Select.png" alt="" width="1000px">
+
+                        <p>Input the right amount that you will requesting.</p>
+                        <img src="MMS_assets/PR_assets/PR_items_quantity.png" alt="" width="1000px">
+                        <p>After you input the right item and quantity click select at the bottom right to continue.</p>
+                        <p>go to Step 4</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--step 3 end-->
+                  <!--Step 4 start-->
+
+                  <div id="task4-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Posting The request</div>
+                      </div>
+                      <div class="card-body">
+                        <p>To Post the request click the request then click post at the top menu:</p>
+                        <img src="MMS_assets/PR_assets/PR_for_posting.png" alt="" width="1000px">
+                        <img src="MMS_assets/PR_assets/PR_new_button.png" alt="" width="1000px">
+                        <p>A confirmation window will appear</p>
+                        <img src="MMS_assets/PR_assets/PR_Confirm_posting.png" alt="" width="500px">
+
+                        <p>Click ok if you are sure of the details and items inside the PR.</p>
+                        <img src="MMS_assets/PO_assets/save_and_close.png" alt="" width="500px">
+                        <p>Input your user code and password to confirm and post</p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--step 5 start-->
+                  <div id="task5-content" class="collapsible-content">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="p">Actual Process</div>
+                      </div>
+                      <div class="card-body">
+                        <p>Print Purchase Requisition Slip</p>
+                        <img src="MMS_assets/PR_assets/PR_print_request.png" alt="" width="500px">
+                        <p>Click the Print or preview to print.</p>
+                        <img src="MMS_assets/PR_assets/PR_print_request_print.png" alt="" width="500px">
+                        <strong>
+                          <p>Print Purchase Requisition Slip</p>
+                          <p>Have it Signed by your Department Manager and Department Doctor</p>
+                          <p>Note: In this Step it is not the President who will Approved your P.R it is your Head
+                            Doctor or Department Managers
+                            Once Signed by Manager and Head Doctor</p>
+                          <h6><button data-bs-toggle="collapse" data-bs-target="#company2" aria-expanded="false"
+                              aria-controls="company3" onclick="stepFunction(event)">Proceed to Purchase Order
+                              Module</button></a></h6>
+                        </strong>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
           </div>
         </div>
-      </div>
-      <a href="https://docs.google.com/presentation/d/1h8q7F-2yBOgPft6CF1NIewms_FYkniDp/edit?usp=drive_link&ouid=115285123663293912590&rtpof=true&sd=true">Documentation for new PR,PO,D/R Process</a>
-    </div>
-    
+        <!-- kljkhklhlkjhjlj bro -->
 
-    <script>
-      function stepFunction(event) {
-        debugger;
-        var element = document.getElementsByClassName("collapse");
-        for (var i = 0; i < element.length; i++) {
-          if (element[i] !== event.target.ariaControls) {
-            element[i].classList.remove("show");
-          }
+
+      </div>
+    </div>
+  </div>
+  <div class="collapse" id="company3">
+    <div class="display-4">Company 3</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </p>
+  </div>
+  <div class="collapse" id="company4">
+    <div class="display-4">Company 4</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </p>
+  </div>
+  </div>
+  </div>
+  <a
+    href="https://docs.google.com/presentation/d/1h8q7F-2yBOgPft6CF1NIewms_FYkniDp/edit?usp=drive_link&ouid=115285123663293912590&rtpof=true&sd=true">Documentation
+    for new PR,PO,D/R Process; Click here.</a>
+  </div>
+
+
+  <script>
+
+    function showDivPO() {
+      var div = document.getElementById("Start_PO");
+      if (div.style.display === "none") {
+        div.style.display = "block"; // Show the div
+
+      } else {
+        div.style.display = "none"; // Hide the div
+      }
+    }
+
+    function showDiv() {
+      var div = document.getElementById("Start_PR");
+      if (div.style.display === "none") {
+        div.style.display = "block"; // Show the div
+
+      } else {
+        div.style.display = "none"; // Hide the div
+      }
+    }
+    function stepFunction(event) {
+      debugger;
+      var element = document.getElementsByClassName("collapse");
+      for (var i = 0; i < element.length; i++) {
+        if (element[i] !== event.target.ariaControls) {
+          element[i].classList.remove("show");
         }
       }
-    </script>
+    }
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-      crossorigin="anonymous"
-    ></script>
-    
-  </body>
+    function toggleCollapsible(taskId) {
+      var checkbox = document.getElementById(taskId);
+      var content = document.getElementById(taskId + '-content');
+      var allContents = document.querySelectorAll('.collapsible-content');
+
+      if (checkbox.checked) {
+        // Show current content
+        content.style.display = 'block';
+
+        // Hide all other contents
+        allContents.forEach(function (item) {
+          if (item.id !== (taskId + '-content')) {
+            item.style.display = 'none';
+          }
+        });
+      } else {
+        // Hide current content
+        content.style.display = 'none';
+      }
+    }
+
+
+    function topFunction() {
+      document.body.scroll = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
